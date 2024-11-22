@@ -1,0 +1,1096 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .containerparent{
+    border: solid1px black;
+    background-color: black;
+   height: 15%;
+}
+/* .containermain{
+    width: 20%;
+   padding: 30px;
+   padding-left: 20px;
+}
+.container{
+    display: flex;
+   
+} */
+.container-main {
+ 
+  
+
+}
+
+.img1{
+    /* padding-top: 3%;
+    padding-bottom: 3%;
+   padding-left: 4%;
+  */
+  padding-left: 13px; 
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+ ul{
+    display: flex;
+   
+}
+.container{
+    display: flex;
+   align-items: center;
+
+}
+
+
+.nav {
+    display: flex;
+    gap: 30px;
+   
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+    text-decoration: none;
+  
+}
+.navbar{
+
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.nav li a {
+    text-decoration: none;
+   color: white;
+   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.slider{
+    overflow: hidden;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+   
+}
+.slider figure{
+    width: 400%;
+    position: relative;
+    margin: 0;
+    animation: animate 20s  infinite;
+}
+.slider figure img{
+    width: 25%;
+    float: left;
+}
+.sliderparent{
+    background-color: black;
+    height: 85vh;
+}
+@keyframes animate {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -200%;
+    }
+    50%{
+        left: -200;
+    }
+    70%{
+        left: -200;
+    }
+    75%{
+        left: -300;
+    }
+    95%{
+        left: -300;
+    }
+    100%{
+        left: 0;
+    }
+}
+.section1{
+    height: 380vh;
+    background-color: black;
+}
+.head{
+   font-size: 40px;
+   font-weight: 200px;
+   color: white;
+    font-family: 'Times New Roman', Times, serif ;
+   padding-left: 4%;
+   padding-top: 55;
+   text-align: center;
+}
+.imgchild{
+    padding-top: 30px;
+    padding-left: 22px;
+
+}
+
+.head1{
+    font-size: 40px;
+    font-weight: 200px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    padding-left: 4%;
+   
+    text-align: center;
+    padding-top: 80px;
+}
+.imgchild1{
+    /* padding-top: 30px;
+    padding-left: 22px; */
+   padding-left: 30px;
+
+}
+.imgchild2{
+    /* padding-top: 30px;
+    padding-left: 22px; */
+   padding-left: 50px;
+  
+
+}
+.subimg2{
+    padding-bottom: 30px;
+}
+.subimg3{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.subimg4{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.subimg5{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.subimg6{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.subimg7{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.subtitle1{
+    color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.subi1 .s01{
+    padding-left: 30px;
+  
+}
+.sectionsub1{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 10%;
+}
+.contact{
+    padding-top: 20px;
+}
+.offer-6{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.offer-5{
+    padding-top: 20px;
+    padding-left: 47px;
+    padding-bottom: 30px;
+}
+.offer-1{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.offer-2{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.offer-3{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price-1{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.price-02{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+nav a{
+    display: block;
+    padding-right: 20px ;
+   padding: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+   top: 30px;
+}
+/* index media query */
+@media screen and (max-width :767px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+   
+    .s0img{
+        height: 296px ;
+        width:58%;
+    }
+    .container{
+        padding-top: 66px;
+        padding-left: 93px;
+    }
+    .subimg1{
+        padding-right: 69px;
+        padding: -1px;
+        height: 273px;
+        width: 94%;
+        padding-bottom: 31px;
+    }
+    .img1{
+        
+        padding-left: 196PX;
+        margin-top: 38px;
+    }
+    .head{
+        margin-top: -141px;
+        padding: 20px;
+        font-size: 31px;
+    }
+    .head1{
+        font-size: 31px;
+    }
+    .nav li {
+        display: none;
+    }
+    .price-1{
+        padding-top: 63px;
+        padding-left: 68px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .imgchild1 {
+        margin-left: 71px;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+      gap: 30px;
+    }
+    .offer-1{
+
+
+height: auto;
+width: 66%;
+    }
+    .offer-3{
+        margin-left: 21px;
+        height: auto;
+        width: 66%;
+    }
+    .offer-2{
+        margin-left: 23px;
+        height: auto;
+width: 66%;
+    }
+    .offer-6{
+margin-left: -35px;
+height: auto;
+width: 66%;
+    }
+    .offer-5{
+        margin-left: -42px;
+        height: auto;
+        width: 66%;
+
+    }
+    .price-02{
+        margin-left: -21px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .section1{
+        height: 601vh;
+        background-color: black;
+    }
+    .cardp{
+        display: flex;
+        flex-direction: column;
+    }
+  
+        .card {
+            width: 300px;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s;
+            margin-top: 40px;
+            margin-left: 53px;
+            padding: 40px;
+        }
+    
+}
+@media screen and (max-width: 480px) {
+    .section1 {
+        height: 529vh;
+        background-color: black;
+    }
+    .img1 {
+        padding-left: 53PX;
+        margin-top: 3px;
+    }
+    .slider {
+        overflow: hidden;
+        position: absolute;
+        top: 53%;
+        left: 44%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    .head {
+        margin-top: -198px;
+        margin-right: 45px;
+        /* margin-left: 37px; */
+        padding: 21px;
+        font-size: 26px;
+    }
+    .subimg1 {
+        padding-right: 58px;
+        padding: -1px;
+        height: 273px;
+        width: 85%;
+        padding-bottom: 31px;
+    }
+    .head1 {
+        font-size: 30px;
+        margin-left: -7px;
+        margin-top: 32px;
+        margin-right: 40px;
+    }
+    .imgchild1 {
+        margin-left: -78px;
+        padding-left: 80px;
+        display: flex;
+
+        flex-direction: column;
+        gap: 30px;
+    }
+    .price-02 {
+        margin-left: 26px;
+        margin-top: 24px;
+        margin-bottom: -40px;
+    }
+}
+.sectionsub1 {
+    padding-left: 33px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 10%;
+}
+@media screen and (max-width: 1440px) {
+    .imgchild1{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .imgchild1 {
+        padding-left: 44px;
+        margin-left: -25px;
+    }
+    .section1 {
+        height: 319vh;
+        background-color: black;
+    }
+    .head {
+        font-size: 40px;
+        margin-bottom: 60px;
+        font-weight: 200px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 4%;
+        padding-top: 55;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .imgchild {
+        padding-top: 68px;
+        padding-left: 22px;
+    }
+    .sliderparent {
+        background-color: black;
+        height: 85vh;
+    }
+    .price-02 {
+        margin-top: 30px;
+        margin-left: -976px;
+        padding-top: 40px;
+        padding-left: -24px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/* beauty css */
+
+.beautysec{
+    height: 430vh;
+    background-color: black;
+}
+.zmainimg{
+    padding-top: 40px;
+}
+.blogo-0{
+   padding-top: 20px;
+    padding-left: 40px;
+}
+.blogo h1{
+    color: white;
+    padding-left: 20%;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogo{
+    display: flex;
+}
+
+
+.bbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 30px;
+    padding: 20px;
+}
+/* .p02{
+    object-fit: cover;
+    border: 3px solid white;
+} */
+.product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    text-align: center;
+    width: 330px;
+  /* margin-left: 50px;
+  margin-top: 50px; */
+margin: 0 auto;
+margin-bottom: 8%;
+margin-left: 130px;
+margin-top: 30px;
+}
+.cardpara{
+    display: flex;
+    margin-left: 180px;
+    padding: 3px;
+    gap: 30px;
+}
+
+.product-card1 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    text-align: center;
+    width: 300px;
+  /* margin-left: 50px;
+  margin-top: 50px; */
+margin: 0 auto;
+margin-bottom: 5%;
+
+margin-top: 6%;
+margin-right: 130px;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: white;
+}
+
+.product-description {
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+.product-image2{
+    padding-top: 102px;
+    height: 30px;
+}
+
+.add-to-cart {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #ff4c39;
+}
+.cardpara{
+    color: white;
+ 
+}
+.cardpara h1{
+    text-align: center;
+    margin-left: 140%;
+}
+.onecard{
+display: flex;
+}
+/* word css */
+.title{
+    text-align: center;
+    color: white;
+}
+.titleparent{
+    background-color: black;
+    height: 280vh;
+}
+.title h1{
+    padding-top: 10px;
+    font-size: 60px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.z-img{
+    position: relative;
+    background-size: cover;
+    width: 89%;
+    height: 500px;
+margin: 0 auto;
+margin-left: 70px;
+margin-top: 50px;
+}
+.PARAGRAPH{
+    color: white;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30PX;
+   
+}
+.para1{
+    text-align: center;
+    font-size: 40px;
+}
+.para2{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.para01{
+    padding-left: 30px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.para02{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+  margin-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 20px;
+}
+.para02 li{
+    margin-bottom: 20px;
+}
+.subtitle01{
+    text-align: right;
+}
+.content {
+    max-width: 600px;
+    margin: auto;
+  color: black;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container{
+   
+}
+.content h3{
+    margin-bottom: 30px;
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+/* label {
+    display: block;
+    margin: 15px 0 5px;
+} */
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+} */
+.containerrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    justify-content: space-around;
+    /* background-color: rgba(0, 0, 0, 0.072); */
+}
+.mainstore{
+    background-color: black;
+}
+
+.glossy-card {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), -2px -2px 11px rgba(255, 255, 255, 0.8);
+    width: 600px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.glossy-card h2 {
+    margin: 0;
+    color: #333;
+}
+
+.glossy-card p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.more-details:hover {
+    color: #0056b3;
+}
+
+.glossy-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    z-index: 1;
+    pointer-events: none;
+}
+.subtitle011{
+    background-color: black; 
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.subtitle011 nav a{
+    color: white;
+}
+@media screen and (max-width :767px) {
+    .title h1{
+        padding-top: 67px;
+        font-size: 65px;
+        padding-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .title h2{
+        padding: 30px;
+        
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .blogo h1 {
+        font-size: 19px;
+        color: white;
+        padding-left: 5%;
+        padding-top: 36px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardpara {
+        display: flex;
+    
+        flex-direction: column;
+        margin-left: 180px;
+        padding: 3px;
+        gap: 30px;
+    }
+    .onecard {
+        display: flex;
+    
+        flex-direction: column;
+    }
+    .navbar{
+        display: none ;
+    }
+    .z-img{
+        background-size: cover;
+       height: 300px;
+    margin: 0 auto;
+    margin-left: 19px;
+    margin-top: 4px;
+    }
+.para2{
+    text-align: justify;
+    text-align: center;
+}
+.para01{
+    text-align: center;
+}
+.titleparent{
+    background-color: black;
+    height: 480vh;
+}
+.beautysec{
+    height: 498vh;
+    background-color: black;
+}
+
+}
+@media screen and (max-width :666px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    .product-card1 {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 60px;
+        text-align: center;
+        width: 287px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 130px;
+        padding-left: 7px;
+    }
+}
+@media screen and (max-width :480px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    .blogo h1 {
+        font-size: 0px;
+        color: white;
+        padding-left: 5%;
+        padding-top: 36px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .slider {
+        overflow: hidden;
+        position: absolute;
+        top: 53%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    .product-card1 {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 60px;
+        text-align: center;
+        width: 287px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 130px;
+        padding-left: 117px;
+    }
+    .cardpara{
+        display: none;
+    }
+    .beautysec{
+        height: 307vh;
+        background-color: black;
+    }
+    .blogo-0 .h1{
+        display: none;
+    }
+   
+    .blogo-0 {
+        /* width: 761px; */
+        height: 59px;
+        margin-right: 19px;
+    }
+    .onecard{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width :1128px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    .product-card1 {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: -1px;
+        text-align: center;
+        width: 268px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 130px;
+    }
+}
+@media screen and (max-width :1440px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    
+    .beautysec {
+        height: 345vh;
+        background-color: black;
+    }
+    .cardpara {
+        display: flex
+    ;
+        margin-left: 184px;
+        padding: 23px;
+        gap: 115px;
+    }
+    .blogo-0 {
+        padding-top: 42px;
+        padding-left: 104px;
+        /* padding-bottom: 3px; */
+    }
+    .blogo h1 {
+        color: white;
+        padding-left: 20%;
+        padding-top: 52px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar {
+        margin-top: 57px;
+        margin-left: 80px;
+    }
+    .beautysec {
+        height: 360vh;
+        background-color: black;
+    }
+}
+@media screen and (max-width :1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    .product-card1 {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 60px;
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-top: 6%;
+        margin-right: 36px;
+    }
+    .beautysec {
+        height: 232vh;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width :1332px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    } 
+    .cardpara{
+        display: none;
+    }
+    .beautysec {
+        height: 250vh;
+        background-color: black;
+    }
+}
+
+
+/* men css */
+
+.menmain{
+    height: 10vh;
+    background-color: black;
+}
+.cardp{
+    background-color: black;
+}
+
+.menhead{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+  /* Card styling */
+  .card {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 40px;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Product image */
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /* Product details */
+  .card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 15px 0 5px;
+  }
+
+  .card p {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0 15px;
+  }
+
+  /* Price */
+  .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Glossy button styling */
+  .add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background: linear-gradient(145deg, #4CAF50, #43A047);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+
+  .add-to-cart:hover {
+    background: linear-gradient(145deg, #43A047, #388E3C);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  .cardp{
+    display: flex;
+  }
+  .footerm{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    margin-top: 30px;
+
+  }
